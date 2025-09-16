@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Instructor 👨🏻‍🏫"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:text="Add New Task"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Task Name -->
+
+
+        <EditText
+            android:id="@+id/editTextTaskName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task Name"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- Due Date -->
+        <EditText
+            android:id="@+id/editTextDueDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="false"
+            android:hint="Select Due Date"
+            android:inputType="none"
+            android:minHeight="48dp" />
+
+
+        <!-- Module Selection -->
+        <Spinner
+            android:id="@+id/spinnerModule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:minHeight="48dp" />
+
+        <!-- Student Selection -->
+        <Spinner
+            android:id="@+id/spinnerStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:minHeight="48dp" />
+
+<!--        &lt;!&ndash; Instructor Selection &ndash;&gt;-->
+<!--        <Spinner-->
+<!--            android:id="@+id/spinnerInstructor"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp" />-->
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/buttonCreateTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Task"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/buttonViewTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View All Tasks"
+            android:layout_marginTop="16dp" />
+
+
+        <Button
+            android:id="@+id/btnBack2AddTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="@color/black"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+</ScrollView>

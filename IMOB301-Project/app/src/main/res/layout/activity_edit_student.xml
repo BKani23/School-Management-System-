@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvEditHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Student"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <EditText
+            android:id="@+id/editStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editStudentSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Surname"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editDOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth"
+            android:inputType="date"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Student"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Student"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

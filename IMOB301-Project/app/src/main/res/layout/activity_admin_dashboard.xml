@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_admin"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+
+        <Button
+            android:id="@+id/btnCreateStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Students Records"
+            android:backgroundTint="@color/blue"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnCreateModule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Modules Records"
+            android:backgroundTint="@color/blue"
+
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnCreateInstructor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Instructors Records"
+            android:backgroundTint="@color/blue"
+
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnBack2Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back To Login"
+            android:backgroundTint="@color/black"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

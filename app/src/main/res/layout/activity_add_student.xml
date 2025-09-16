@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+    >
+
+
+        <TextView
+
+            android:text="Add Student"
+            android:textSize="24sp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+        />
+
+        <!-- Student Name -->
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+
+        />
+
+        <EditText
+
+            android:id="@+id/txtStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#2196F3"
+            android:hint="@string/enter_student_name"
+            android:minHeight="48dp"
+
+        />
+
+        <!-- Student Surname -->
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/student_surname"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+        />
+
+        <EditText
+
+            android:id="@+id/txtStudentSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#2196F3"
+            android:hint="@string/enter_student_surname"
+            android:minHeight="48dp"
+
+        />
+
+        <!-- Date of Birth -->
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date_of_birth"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+
+        />
+
+        <EditText
+
+            android:id="@+id/txtDOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#2196F3"
+            android:clickable="true"
+            android:focusable="false"
+            android:hint="@string/enter_date_of_birth_yyyy_mm_dd"
+            android:minHeight="48dp"
+
+        />
+
+
+        <!-- Username -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#2196F3"
+            android:hint="@string/enter_username"
+            android:minHeight="48dp" />
+
+        <!-- Password -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#2196F3"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_student"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_students"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Back"
+            android:backgroundTint="#000000"
+            android:textColor="#FFFFFF" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

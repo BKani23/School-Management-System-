@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:layout_width="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Students Register"
+        android:textColor="@color/green"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="12dp"/>
+
+    <ListView
+        android:id="@+id/listViewStudents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/btnBack2AddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:backgroundTint="@color/black"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Task name and due date on the same row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/taskName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Task Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/dueDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Due: YYYY-MM-DD"
+            android:textSize="14sp"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <!-- Completed checkbox -->
+    <CheckBox
+        android:id="@+id/completedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Completed"
+        android:layout_marginTop="4dp" />
+
+    <!-- Buttons for update and delete -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginStart="12dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CRUDPROGRAM"
+        tools:targetApi="31">
+<!--        <activity-->
+<!--            android:name=".Login"-->
+<!--            android:exported="false" />-->
+        <activity
+            android:name=".UpdateInstructor"
+            android:exported="false" />
+        <activity
+            android:name=".instructor_item"
+            android:exported="false" />
+
+        <activity
+            android:name=".StudentTasks"
+            android:exported="false" />
+        <activity
+            android:name=".CreateTasks"
+            android:exported="false" />
+        <activity
+            android:name=".ViewInstructors"
+            android:exported="false" />
+        <activity
+            android:name=".AddInstructor"
+            android:exported="false" />
+        <activity
+            android:name=".ViewModules"
+            android:exported="false" />
+        <activity
+            android:name=".moduleCreation"
+            android:exported="false" />
+        <activity
+            android:name=".EditStudent"
+            android:exported="false" />
+
+        <activity
+            android:name=".view_students"
+            android:exported="false" />
+        <activity
+            android:name=".add_student"
+            android:exported="false" />
+        <activity
+            android:name=".admin_dashboard"
+            android:exported="false" />
+        <activity
+
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

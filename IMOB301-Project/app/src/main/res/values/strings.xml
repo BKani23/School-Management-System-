@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CRUD PROGRAM</string>
+    <string name="hello_admin">Hello Admin 👋🏻</string>
+    <string name="create_student_record">Create Student Record</string>
+    <string name="create_module_record">Create Module Record</string>
+    <string name="create_instructor_record">Create Instructor Record</string>
+    <string name="add_student">Add Student</string>
+    <string name="view_students">View Students</string>
+    <string name="enter_course_fee">Enter course fee</string>
+    <string name="student_name">Student Name</string>
+    <string name="enter_student_name">Enter student name</string>
+    <string name="student_surname">Student Surname</string>
+    <string name="enter_student_surname">Enter student surname</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="enter_date_of_birth_yyyy_mm_dd">Enter date of birth (YYYY-MM-DD)</string>
+    <string name="username">Username</string>
+    <string name="enter_username">Enter username</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="add_student2">Add Student</string>
+    <string name="view_students2">View Students</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="username2">Username</string>
+    <string name="password2">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+</resources>

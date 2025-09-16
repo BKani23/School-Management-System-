@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="35dp"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editInstructorNameUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Instructor Name" />
+
+    <EditText
+        android:id="@+id/editInstructorUsernameUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/editInstructorPasswordUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnUpdateInstructor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Instructor"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnBack2Inst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:backgroundTint="@color/black"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

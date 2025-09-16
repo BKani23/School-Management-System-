@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutAddModule"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:layout_marginTop="40dp"
+    tools:context=".moduleCreation"
+   >
+
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/txtAddModuleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Module"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2E2E2E"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Module Name -->
+    <EditText
+        android:id="@+id/editModuleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Module Name"
+        android:inputType="textCapWords"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Duration -->
+    <EditText
+        android:id="@+id/editDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duration (e.g. 12 weeks)"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnAddModule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Module"
+        android:textAllCaps="false"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnShowModules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:text="Show Modules"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnBack2Module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:backgroundTint="@color/black"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
